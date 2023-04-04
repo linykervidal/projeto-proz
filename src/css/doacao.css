@@ -1,0 +1,226 @@
+#title-page {
+    background: url("/src/img/bg-title-adote.jpg") rgba(0, 0, 0, 0.3);
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+    color: white;
+    font-size: xx-large;
+    height: 129px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.container{
+    height: 300px;
+    position: relative;
+
+}
+
+.centro{
+    position: absolute;
+    top: 34%;
+    left: 46%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+}
+
+#img01{
+    height: 300px;
+    max-width: 100%;
+}
+
+#img02{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.7);
+}
+
+.kit{
+    font-size: 38px;
+    border: 7px ridge #B65826;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem 0;
+    height: 200px;
+    width: 380px;
+}
+
+.kitgeral{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.texto1{
+    text-align: center;
+
+}
+
+.texto2{
+    text-align: center;
+}
+
+.botao{
+    background-color: #348588;
+    border-radius: 10px;
+    margin-top: 175px;
+    color: white;
+    padding: 7px 20px;
+    position: absolute;
+}
+
+.outrogeral{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 1rem 0;
+    align-items: center;
+}
+
+#coracao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#texto{
+    font-size: 40px;
+}
+
+.formulario {       
+    width: 500px;
+    height: 230px;
+    display: flex; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    background-color: #27A8AD;
+    padding: 10px 10px 10px 10px;    
+    justify-content: space-evenly;
+}
+
+.cx-texto {
+    outline: none;
+    transition: 0.2s;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #27A8AD;
+}
+
+.cx-texto:focus {
+    border: 2px solid #B65826;
+}
+
+.botao-submit {
+    border: none;
+    background-color: rgb(199, 66, 66);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    align-self: flex-end;
+    width: 100px;
+    height: 50px;
+    margin: 15px 20px 0 0;
+    transition: 0.2s;
+}
+
+.botao-submit:hover {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.botao-submit:active {
+    transform: scale(1.2);
+}
+
+.emailError {
+    display: none;
+    color: #FF0000;
+    margin-bottom: 10px;
+}
+
+.nameError {
+    display: none;
+    color: #FF0000;
+    margin-bottom: 10px;    
+}
+
+.modal {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow: auto; 
+    position: fixed;    
+    padding-top: 5px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.modal-content {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: calc(50% - 50px); 
+    left: calc(50% - 50px); 
+    flex-direction: column;	 
+    
+}
+
+.gif-loading-send-form {
+    width: 100px;
+    height: 100px;
+}
+
+.sendFormStatus {
+    display: flex;
+    margin-top: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+}
+
+/*LINYKER adicionei as medias queries*/
+@media (max-width: 1000px) {
+    .inicio, .kitgeral, .outrogeral {
+        flex-wrap: wrap;
+    }
+
+    .kitgeral {
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 650px) {
+    a:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 550px) {
+    #img02 {
+        height: 250px;
+    }
+}
+
+@media (max-width: 460px) {
+    #img02 {
+        height: 200px;
+    }
+
+    .kit {
+        width: 80%;
+        font-size: 30px;
+    }
+}

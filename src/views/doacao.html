@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/header-footer.css">
+    <link rel="stylesheet" href="/src/css/doacao.css">    
+    <title>Doação - Instituto LAVHEC</title>
+</head>
+<body>
+  <header id="header">
+    <h1>Instituto LAVHEC</h1>
+    <div id="logo">
+      <img src="/src/img/logo.png" alt="logo Instituto LAVHEC" />
+    </div>
+
+    <nav>
+      <!--LINYKER inclui o menu hamburguer-->
+      <div id="menu-hamburguer">
+        <input type="checkbox" name="checkbox-menu" id="checkbox-menu" onclick="isChecked()">
+        <label for="checkbox-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>      
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/src/views/adote.html">Adote</a></li>
+        <li><a href="/src/views/perdidos-e-achados.html">Perdidos e Achados</a></li>
+        <li><a href="##" class="current-page">Doação</a></li>
+        <li><a href="/src/views/quem-somos.html">Quem Somos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="title-page">Doação</h2>
+    <section class="inicio">
+      <div class="container">
+        <h2 class="centro">FAÇA SUA <BR></BR> DOAÇÃO</h2>
+        <img id="img01" src="/src/img/facadoaçao.png" alt="imag01">
+      </div>
+      <div>
+        <img id="img02" src="/src/img/f1.jpg" alt="img02">
+      </div>
+    </section>
+    <section class="kitgeral">
+      <div class="kit">
+      <p class="texto1">Kit Limpeza</p>
+      <p class="texto2">R$35,00</p>
+      <a class="botao" href="https://mpago.la/2wPznWr" target="_blank"> Doar agora</a>
+      </div>
+      <div class="kit">
+      <p class="texto1">Kit Medicamentos</p>
+      <p class="texto2">R$50,00</p>
+      <a class="botao" href="https://mpago.la/1zydEqc" target="_blank"> Doar agora</a>
+      </div>
+    </section>
+    <section>
+      <div class="outrogeral">
+        <div id="coracao">
+          <h2 id="texto">Doe outro valor</h2>
+          <img src="/src/img/coracao.png" alt="Coração">
+        </div>
+
+        <form class="formulario" action="">
+          <label for="name">Nome</label>
+          <input id="name" class="cx-texto"  type="text" name="name">
+          <span id="nameError" class="nameError"></span>
+
+          <label for="email">Email</label>          
+          <input id="email" class="cx-texto"  type="email" name="email">
+          <span id="emailError" class="emailError"></span>
+
+          <input id="submitForm" class="botao-submit" type="button" value="Enviar">
+        </form>
+
+        <div id="modalBody" class="modal">
+          <!-- O conteudo do Modal será inserido via JS -->             
+        </div>        
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div id="footer">
+      <img src="/src/img/logo-footer.png" alt="logo Instituto LAVHEC rodapé">
+      
+      <nav>
+        <h2>Menu</h2>
+        <ul>
+          <div>
+            <li><a href="/">Home</a></li>
+            <li><a href="/src/views/adote.html">Adote</a></li>
+            <li><a href="/src/views/perdidos-e-achados.html">Perdidos e Achados</a></li>
+          </div>
+          <div>
+            <li><a href="##" onclick="toTop()">Doação</a></li>
+            <li><a href="/src/views/quem-somos.html">Quem Somos</a></li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+      
+    <div id="credits">
+      <a href="https://github.com/V-Carvalho/Projeto-Integrador-PROZ" target="_blank">&copy; Copyright - Projeto Integrador - Grupo 6</a>
+      <a href="##" onclick="toTop()"><span>Voltar para o topo</span><span>&uarr;</span></a>
+    </div>
+  </footer>
+
+  <script src="../js/doacao.js" defer></script>
+  <script src="../js/script.js" defer></script>
+</body>
+</html>

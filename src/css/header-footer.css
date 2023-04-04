@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+h1, header h2 {
+    display: none;
+}
+
+#logo {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3) url("/src/img/bg-header.jpg") center 80%;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#checkbox-menu, #checkbox-filter {
+    position: absolute;
+    opacity: 0;
+}
+
+#menu-hamburguer label, #filter-hamburguer label {
+    display: none;
+}
+
+header ul {
+    background: #27A8AD;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+header li {
+    display: flex;
+}
+
+header li a {
+    padding: 1rem;
+}
+
+.current-page {
+    background: #348588;
+}
+
+.current-page:hover {
+    background-color: transparent;
+}
+
+header a, footer, footer a {
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #B65826
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 0;
+}
+
+#footer {
+    background: #27A8AD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 266px;
+    margin: 0 -1rem;
+    padding: 0 1rem;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer ul {
+    display: flex;
+    gap: 1rem;
+}
+
+footer ul div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#credits {
+    background: #348588;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -1rem;
+    padding: 10px 1rem;
+}
+
+#credits a:last-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer span:last-child {
+    font-size: xx-large;
+}
+
+@media (max-width: 900px) {
+    footer ul {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    header a:hover, footer a:hover {
+        color: white;
+    }
+
+    main a:hover {
+        color: black;
+    }
+}
+
+@media (max-width: 750px) {
+    #logo {
+        justify-content: center;
+    }
+
+    #footer img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 650px) {
+    header nav {
+        background: #27A8AD;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    header h2 {
+        display: block;
+        color: white;
+    }
+
+    header ul {
+        display: block;
+        position: absolute;
+        top: 280px;
+        left: -1000px;
+        transition: 0.3s ease-in-out;
+        z-index: 1;
+    }
+
+    #menu-hamburguer label, #filter-hamburguer label {
+        cursor: pointer;
+        display: flex;
+        height: 22px;
+        width: 30px;
+        position: relative;
+    }
+    
+    #menu-hamburguer span, #filter-hamburguer span {
+        height: 5px;
+        width: 100%;
+        border-radius: 30px;
+        background: white;
+        transition: 0.25s ease-in-out;
+        position: absolute;
+    }
+    
+    #menu-hamburguer span:nth-child(2), #filter-hamburguer span:nth-child(2) {
+        margin-top: 8px;
+    }
+    
+    #menu-hamburguer span:nth-child(3), #filter-hamburguer span:nth-child(3) {
+        margin-top: 16px;
+    }
+    
+    #checkbox-menu:checked + label span:nth-child(1), #checkbox-filter:checked + label span:nth-child(1) {
+        transform: rotate(-45deg);
+        margin-top: 8px;
+    }
+    
+    #checkbox-menu:checked + label span:nth-child(2), #checkbox-filter:checked + label span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    #checkbox-menu:checked + label span:nth-child(3), #checkbox-filter:checked + label span:nth-child(3) {
+        transform: rotate(45deg);
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    #credits {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    #logo img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    #footer {
+        flex-direction: column;
+        height: 100%;
+        padding: 1rem 0;
+        gap: 2.5rem;
+    }
+
+    footer nav {
+        align-items: center;
+    }
+
+    footer ul div {
+        align-items: center;
+    }
+
+    #credits a {
+        font-size: small;
+    }
+}
+
+@media (max-width: 350px) {
+    #credits a {
+        font-size: x-small;
+    }
+}

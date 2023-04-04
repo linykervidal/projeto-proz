@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/header-footer.css" />
+    <link rel="stylesheet" href="/src/css/adote.css" />
+    <link rel="stylesheet" href="/src/css/leaflet.css" />
+    <title>Adote - Instituto LAVHEC</title>
+  </head>
+  <body onload="loadDataAllAnimals()">
+    <header id="header">
+      <h1>Instituto LAVHEC</h1>
+      <div id="logo">
+        <img src="/src/img/logo.png" alt="logo Instituto LAVHEC" />
+      </div>
+
+      <nav>
+        <div id="menu-hamburguer">
+          <input type="checkbox" name="checkbox-menu" id="checkbox-menu" onclick="isChecked()">
+          <label for="checkbox-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#" class="current-page">Adote</a></li>
+          <li>
+            <a href="/src/views/perdidos-e-achados.html">Perdidos e Achados</a>
+          </li>
+          <li><a href="/src/views/doacao.html">Doação</a></li>
+          <li><a href="/src/views/quem-somos.html">Quem Somos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner-page-title">
+        <h3>Cachorros e Gatos para Adoção!</h3>
+      </section>
+
+      <section class="filter-animal-type">
+        <div id="filter-hamburguer">
+          <input type="checkbox" name="checkbox-filter" id="checkbox-filter" onclick="isFilterChecked()">
+          <label for="checkbox-filter">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>        
+        <div class="filter-animal-type-text">
+          <h5>Filtrar Por:</h5>
+        </div>
+        <div class="filter-animal-type-buttons">
+          <button class="btn-all-animals" onclick="showAllAnimals()">
+            Mostar Todos
+          </button>
+          <button class="btn" onclick="showAnimalsFilteredSorted('cat')">
+            Gatos
+          </button>
+          <button class="btn" onclick="showAnimalsFilteredSorted('dog')">
+            Cachorros
+          </button>          
+          <button class="btn" onclick="showMap()">
+            Ver Mais
+          </button>
+        </div>
+      </section>
+
+      <section class="animals-main-content">
+        <ul id="listAnimals" class="list-animals">
+          <!-- Os itens da lista serão adicionados via JS -->
+        </ul>
+        <div id="map" class="map-animals">
+          <!-- Mapa adicionado via JS -->
+        </div>
+      </section>
+
+      <section id="modalBody" class="modal">
+        <!-- O conteudo do Modal será inserido via JS -->        
+      </section>
+
+      <section id="alert" class="alert" >
+        <div id="alertBody" class="alert-body">
+          <!-- O conteúdo será inserido via JS -->       
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer">
+        <img
+          src="/src/img/logo-footer.png"
+          alt="logo Instituto LAVHEC rodapé"
+        />
+
+        <nav>
+          <h2>Menu</h2>
+          <ul>
+            <div>
+              <li><a href="/">Home</a></li>
+              <li><a href="##" onclick="toTop()">Adote</a></li>
+              <li>
+                <a href="/src/views/perdidos-e-achados.html"
+                  >Perdidos e Achados</a
+                >
+              </li>
+            </div>
+            <div>
+              <li><a href="/src/views/doacao.html">Doação</a></li>
+              <li><a href="/src/views/quem-somos.html">Quem Somos</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="credits">
+        <a
+          href="https://github.com/V-Carvalho/Projeto-Integrador-PROZ"
+          target="_blank"
+          >&copy; Copyright - Projeto Integrador - Grupo 6</a
+        >
+        <a href="##" onclick="toTop()"><span>Voltar para o topo</span><span>&uarr;</span></a>
+      </div>
+    </footer>
+
+    <script src="../js/adote.js" defer></script>
+    <script src="../js/script.js" defer></script>
+    <script src="../js/leaflet.js" defer></script>
+  </body>
+</html>

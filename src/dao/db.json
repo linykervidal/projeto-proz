@@ -1,0 +1,213 @@
+[
+  {
+    "animalName": "Thor",
+    "age": "1 Ano",
+    "gender": "Macho",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/hound-blood/n02088466_8105.jpg"
+  },
+  {
+    "animalName": "Pantera",
+    "age": "3 Anos",
+    "gender": "Fêmea",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/buhund-norwegian/hakon2.jpg"
+  },
+  {
+    "animalName": "Lupi",
+    "age": "5 Anos",
+    "gender": "Macho",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/eskimo/n02109961_16865.jpg"
+  },
+  {
+    "animalName": "Simba",
+    "age": "3 Anos",
+    "gender": "Macho",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/terrier-sealyham/n02095889_2539.jpg"
+  },
+  {
+    "animalName": "Nina",
+    "age": "6 Anos",
+    "gender": "Fêmea",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/mountain-bernese/n02107683_1460.jpg"
+  },
+  {
+    "animalName": "Belinha",
+    "age": "4 Anos",
+    "gender": "Fêmea",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/keeshond/n02112350_7699.jpg"
+  },
+  {
+    "animalName": "Tobias",
+    "age": "7 Meses",
+    "gender": "Macho",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_10261.jpg"
+  },
+  {
+    "animalName": "Buddy",
+    "age": "1 Ano",
+    "gender": "Macho",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/spaniel-welsh/n02102177_3524.jpg"
+  },
+  {
+    "animalName": "Max",
+    "age": "2 Anos",
+    "gender": "Macho",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/rottweiler/n02106550_12424.jpg"
+  },
+  {
+    "animalName": "Boris",
+    "age": "3 Anos",
+    "gender": "Macho",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/hound-basset/n02088238_2574.jpg"
+  },
+  {
+    "animalName": "Lilica",
+    "age": "1 Ano",
+    "gender": "Fêmea",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/terrier-westhighland/n02098286_3021.jpg"
+  },
+  {
+    "animalName": "Chanel",
+    "age": "1 Ano",
+    "gender": "Fêmea",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/malamute/n02110063_8514.jpg"
+  },
+  {
+    "animalName": "Kiara",
+    "age": "3 Anos",
+    "gender": "Fêmea",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_4710.jpg"
+  },
+  {
+    "animalName": "Aladdin",
+    "age": "2 Anos",
+    "gender": "Macho",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/segugio-italian/n02090722_002.jpg"
+  },
+  {
+    "animalName": "Naruto",
+    "age": "4 Anos",
+    "gender": "Macho",
+    "tag": "dog",
+    "animalPhotoUrl": "https://images.dog.ceo/breeds/terrier-westhighland/n02098286_1591.jpg"
+  },
+
+  {
+    "animalName": "Naruto",
+    "age": "2 Meses",
+    "gender": "Macho",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg"
+  },
+  {
+    "animalName": "Selene",
+    "age": "7 Anos",
+    "gender": "Fêmea",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2016/12/30/12/16/cat-1940487_960_720.jpg"
+  },
+  {
+    "animalName": "Thor",
+    "age": "8 Meses",
+    "gender": "Macho",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2019/06/08/17/02/cat-4260536_960_720.jpg"
+  },
+  {
+    "animalName": "Athos",
+    "age": "2 Anos",
+    "gender": "Macho",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2016/11/29/09/07/cat-1868606_960_720.jpg"
+  },
+  {
+    "animalName": "Brutus",
+    "age": "3 Anos",
+    "gender": "Macho",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2019/12/17/16/06/cat-4701934_960_720.jpg"
+  },
+  {
+    "animalName": "Agata",
+    "age": "5 Anos",
+    "gender": "Fêmea",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2022/05/08/18/13/cat-7182671_960_720.jpg"
+  },
+  {
+    "animalName": "Helena",
+    "age": "1 Ano",
+    "gender": "Fêmea",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2017/07/06/13/29/cat-2478033_960_720.jpg"
+  },
+  {
+    "animalName": "Zeus",
+    "age": "2 Anos",
+    "gender": "Macho",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2016/09/25/14/09/cat-1693788_960_720.jpg"
+  },
+  {
+    "animalName": "Pedrita",
+    "age": "4 Meses",
+    "gender": "Fêmea",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2017/08/27/17/53/kitten-2687003_960_720.jpg"
+  },
+  {
+    "animalName": "Napoleão",
+    "age": "10 Anos",
+    "gender": "Macho",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2017/02/24/01/30/cat-2093639_960_720.jpg"
+  },
+  {
+    "animalName": "Amora",
+    "age": "3 Anos",
+    "gender": "Fêmea",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2020/10/26/19/21/cat-5688482__340.jpg"
+  },
+  {
+    "animalName": "Faísca",
+    "age": "4 Anos",
+    "gender": "Macho",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2019/02/21/20/16/cat-4012161_960_720.jpg"
+  },
+  {
+    "animalName": "Espoleta",
+    "age": "8 Meses",
+    "gender": "Macho",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2018/03/29/21/48/animals-3273782_960_720.jpg"
+  },
+  {
+    "animalName": "Fafá",
+    "age": "6 Anos",
+    "gender": "Fêmea",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2020/10/26/19/20/cat-5688473_960_720.jpg"
+  },
+  {
+    "animalName": "Dino",
+    "age": "3 Anos",
+    "gender": "Macho",
+    "tag": "cat",
+    "animalPhotoUrl": "https://cdn.pixabay.com/photo/2013/08/03/11/56/cat-169566_960_720.jpg"
+  }
+]
